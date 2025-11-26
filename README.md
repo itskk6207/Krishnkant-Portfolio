@@ -66,7 +66,7 @@ Open index.html in browser.
 
 
 🌍 Live Demo
-https://krishnkant-portfolio.netlify.app
+https://krishnkantportfolio.netlify.app/
 
 
 

@@ -1,11 +1,80 @@
+⭐ Krishnkant Portfolio
+A modern and responsive personal portfolio website showcasing my skills, projects, experience, and contact information. Built with clean design and smooth user experience in mind.
 
-  # Senior Software Engineer Portfolio Website (Community)
+📌 About This Project
+This portfolio represents who I am as a developer — my journey, my work, and the technologies I use.
+It highlights:
 
-  This is a code bundle for Senior Software Engineer Portfolio Website (Community). The original project is available at https://www.figma.com/design/Haj6G2gPyGr1CrDQsYGRuL/Senior-Software-Engineer-Portfolio-Website--Community-.
+👨‍💻 About Me
 
-  ## Running the code
+🛠️ Skills & Technologies
 
-  Run `npm i` to install the dependencies.
+📂 Featured Projects
 
-  Run `npm run dev` to start the development server.
-  
+📞 Contact Section
+
+📄 Resume Download
+
+🌐 Social Media Links
+
+🚀 Features
+Fully responsive design
+
+Clean and modern UI
+
+Fast loading
+
+Easy navigation
+
+SEO-friendly
+
+Works on all devices
+
+Smooth animations (if added)
+
+🛠️ Tech Stack
+HTML5
+
+CSS3 / Bootstrap
+
+JavaScript
+
+PHP (if form handling)
+
+Git & GitHub
+
+📸 Screenshots
+(Add your screenshots here)
+
+css
+Copy code
+![Portfolio Screenshot](path-to-image)
+📁 Project Structure
+bash
+Copy code
+/assets
+  /css
+  /js
+  /images
+index.html
+about.html
+projects.html
+contact.php (optional)
+README.md
+📦 How to Use
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/itskk6207/Krishnkant-Portfolio.git
+Open index.html in browser.
+
+🌍 Live Demo
+https://krishnkant-portfolio.netlify.app
+
+🤝 Connect With Me
+GitHub: https://github.com/itskk6207
+
+LinkedIn: https://www.linkedin.com/in/imkrishnkant/
+
+Email: krishnkant2803@gmail.com

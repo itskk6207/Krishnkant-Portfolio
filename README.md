@@ -39,17 +39,9 @@ CSS3 / Bootstrap
 
 JavaScript
 
-PHP (if form handling)
 
 Git & GitHub
 
-📸 Screenshots
-(Add your screenshots here)
-
-css
-Copy code
-![Portfolio Screenshot](path-to-image)
-📁 Project Structure
 bash
 Copy code
 /assets
@@ -61,6 +53,8 @@ about.html
 projects.html
 contact.php (optional)
 README.md
+
+
 📦 How to Use
 Clone the repository:
 
@@ -69,8 +63,12 @@ Copy code
 git clone https://github.com/itskk6207/Krishnkant-Portfolio.git
 Open index.html in browser.
 
+
+
 🌍 Live Demo
 https://krishnkant-portfolio.netlify.app
+
+
 
 🤝 Connect With Me
 GitHub: https://github.com/itskk6207

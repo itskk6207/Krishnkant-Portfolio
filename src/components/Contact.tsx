@@ -1,0 +1,115 @@
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Textarea } from "./ui/textarea";
+import { Mail, Phone, MapPin, Send, Linkedin, Github } from "lucide-react";
+
+export function Contact() {
+  return (
+    <section className="py-20 px-4">
+      <div className="max-w-4xl mx-auto">
+        <div className="text-center space-y-4 mb-12">
+          <h2 className="text-3xl md:text-4xl">Let's Work Together</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
+            Ready to bring your next project to life? Let's discuss how my expertise 
+            in full-stack development and innovative solutions can help achieve your goals.
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="space-y-6">
+            <Card>
+              <CardContent className="p-6">
+                <div className="flex items-center gap-4">
+                  <Mail className="h-5 w-5 text-primary" />
+                  <div>
+                    <h4>Email</h4>
+                    <a 
+                      href="mailto:krishnkant2803@gmail.com"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      krishnkant2803@gmail.com
+                    </a>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card>
+              <CardContent className="p-6">
+                <div className="flex items-center gap-4">
+                  <Phone className="h-5 w-5 text-primary" />
+                  <div>
+                    <h4>Mobile</h4>
+                    <a 
+                      href="tel:+916207161862"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      +91 6207161862
+                    </a>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card>
+              <CardContent className="p-6">
+                <div className="flex items-center gap-4">
+                  <Linkedin className="h-5 w-5 text-primary" />
+                  <div>
+                    <h4>LinkedIn</h4>
+                    <a 
+                      href="http://www.linkedin.com/in/imkrishnkant"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      linkedin.com/in/imkrishnkant
+                    </a>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardContent className="p-6">
+                <div className="flex items-center gap-4">
+                  <Github className="h-5 w-5 text-primary" />
+                  <div>
+                    <h4>GitHub</h4>
+                    <a 
+                      href="https://github.com/itskk6207"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      github.com/itskk6207
+                    </a>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+          
+          <Card>
+            <CardHeader>
+              <CardTitle>Send a Message</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <Input placeholder="Your Name" />
+                <Input placeholder="Your Email" />
+              </div>
+              <Input placeholder="Subject" />
+              <Textarea placeholder="Your Message" rows={5} />
+              <Button className="w-full gap-2">
+                <Send className="h-4 w-4" />
+                Send Message
+              </Button>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    </section>
+  );
+}

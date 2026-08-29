@@ -9,7 +9,7 @@ export function Experience() {
       institution: "Lovely Professional University",
       location: "Phagwara, Punjab",
       period: "Aug '24 - Present",
-      grade: "CGPA: 8.09"
+      grade: "CGPA: 8.08"
     },
     {
       degree: "Bachelor of Science in Mathematics",

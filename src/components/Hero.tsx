@@ -164,7 +164,7 @@ export function Hero() {
               </div>
               <div className="text-center lg:text-left">
                 <div className="text-2xl md:text-3xl mb-1">
-                  CGPA 8.09
+                  CGPA 8.08
                 </div>
                 <div className="text-sm text-muted-foreground">
                   Academic

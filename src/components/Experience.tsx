@@ -8,8 +8,8 @@ export function Experience() {
       degree: "Master of Computer Application",
       institution: "Lovely Professional University",
       location: "Phagwara, Punjab",
-      period: "Aug '24 - Present",
-      grade: "CGPA: 8.09"
+      period: "Aug '24 - Jun '26",
+      grade: "CGPA: 8.08"
     },
     {
       degree: "Bachelor of Science in Mathematics",
